@@ -1,0 +1,13 @@
+the code and logic looks good so far, let me give you the whole plan
+
+multiple users will enter the frontend and enter their content on the textarea seperately, independently.
+
+
+the backend will receive content from one client and update it to other clients
+
+
+implanning to deploy this small app on github pages, lets focus on that later
+
+
+for now let's just do the frontend and backend
+

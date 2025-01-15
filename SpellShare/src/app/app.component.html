@@ -1,0 +1,13 @@
+<div class="container my-5">
+  <div class="p-5 text-center bg-body-tertiary rounded-3">
+    <h1 class="text-body-emphasis">Spell Share</h1>
+    <p class="lead">
+      It's just a wannabe <code>codeshare.io</code>
+    </p>
+    <div class="form-floating">
+      <!-- The textarea here will be the code editor -->
+      <textarea [(ngModel)]="code" (ngModelChange)="onCodeChange($event)" class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 280px;"></textarea>
+      <label for="floatingTextarea">Write your spells here... Mortal...</label>
+    </div>
+  </div>
+</div>
